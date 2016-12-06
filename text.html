@@ -1,0 +1,54 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<title>my first page</title>
+  	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  	<link type="text/css"  rel="stylesheet" href="css/style.css"/>
+  	<style>
+  	 ul{
+        width:100%;
+        height:50px;
+        list-style-type: none;
+        padding-left: 0px;
+        line-height: 50px;
+  	}
+  	 ul li{
+  	 	float: left;
+  	 	margin-left: 15px;
+  	 }
+  	</style>
+  </head>
+  <body>
+    <div id="mian-div">
+    	<div id="top-div">
+    		<ul>
+    			<li width="700px"><img src=""></li>
+    			<li width="100px">首页</li>
+    			<li width="100px">游戏大厅</li>
+    			<li width="100px">手游推荐</li>
+    			<li width="100px">游戏充值</li>
+    			<li width="100px">个人中心</li>
+    			<li width="100px">客服中心</li>
+    			<li width="100px">开服表</li>
+    		</ul>
+    	</div>
+    	<div id="middle-div">
+    		<div id="left-div"></div>
+    		<div id="right-div"></div>
+    	</div>
+    	<div id="bottom-div"></div>
+    </div>
+  </body>
+  <script type="text/javascript">
+function remove(arr, item){
+  var arr1=arr.slice(0);
+  for(var i=0;i<arr1.length;i++){
+      if(arr[i]==item){
+          arr1.splice(i,1);
+          i--;
+      }
+  }
+  return arr1;
+}
+  </script>
+  </html>>
