@@ -1,0 +1,25 @@
+#main-div{
+    width:1400px;
+    border:solid 2px #FF0000;
+}
+#top-div{
+    width:1396px;
+    height:400px;
+    background-color:#B3D9D9;
+}
+#middle-div{
+    width:1396px;
+}
+#bottom-div{
+    width:1396px;
+    height:200px;
+    border:solid 2px  #d0d0d0;
+    background-color: #d0d0d0;
+}
+#left-div{
+    width:70%;
+}
+#right-div{
+    width:30%;
+    border:solid 2px #F0F0F0;
+}
